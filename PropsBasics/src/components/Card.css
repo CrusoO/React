@@ -1,0 +1,37 @@
+.User{
+    height: 300px;
+    width:  300px;
+    background-color:#5ACBF8;
+    font-size: 10px;
+    padding: 10px;display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    
+   
+    
+}
+.User h1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 20px;
+    animation: typing 3s steps(10) forwards;
+    animation-delay: 2s;
+    visibility: hidden;
+}
+@keyframes typing{
+    from { width: 0%; visibility: visible; }
+    to { width: 50%; visibility: visible; }
+}
+
+
+#userRole{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.3;
+}
